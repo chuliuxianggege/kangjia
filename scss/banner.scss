@@ -1,0 +1,391 @@
+
+
+// .ne_side_share_component {
+//     height: 170px;
+//     width: 50px;
+//     position: fixed;
+//     _position: absolute;
+//     top: 40%;
+//    /*  left: 54%; */
+//    right: 1%;
+//     margin-left: 0;
+
+//     z-index: 990;
+// }
+// .sc-acd.nssc_share {
+//     background-position: -93px -245px;
+//     position: relative;
+//     z-index: 98;
+//     overflow: hidden;
+//     position: relative;
+// }
+// .sc-acd.nssc_share1 {
+//     background-position: -93px -305px;
+//     position: relative;
+//     z-index: 98;
+//     overflow: hidden;
+//     position: relative;
+// }
+// .ne_side_share_component .sc-acd {
+//     display: block;
+//     color: white;
+//     width: 50px;
+//     height: 50px;
+//     margin-top: 1px;
+//     font-size: 0;
+//     background-image: url("./back.gif");
+// }
+// .acdhover{
+// 	display: block;
+// 	color: white;
+// 	width: 40px;
+// 	height: 40px;
+// 	margin-top: 1px;
+// 	font-size: 14px;
+// 	color: #fff;
+// 	background: #333;
+// 	text-align: center;
+// 	padding: 5px 5px;
+// 	letter-spacing: 0px;
+// 	line-height: 20px;
+// }
+// #acd_share a:hover{
+// 	color: #ffffff !important;
+// }
+// .sc-acd .sashare-srap-new {
+//     width: 180px;
+//     margin: 0;
+//     background: #fafafa;
+//     z-index: 9;
+//     height: 24px;
+//     line-height: 24px;
+//     padding: 12px 0 12px 10px;
+//     border: 1px solid #ccc;
+//     position: absolute;
+//     top: 0;
+//     left: -194px;
+// }
+// .acd-wechat{
+// 	width: 80px;
+// 	margin: 130px 0px;
+// 	background: #fafafa;
+// 	z-index: 9;
+// 	height: 24px;
+// 	line-height: 24px;
+// 	padding: 12px 0 12px 10px;
+// 	border: 1px solid #ccc;
+// 	position: absolute;
+// 	top: 0;
+// 	left: -94px;
+// 	display: none;
+// }
+// .sc-acd .sashare-srap-new1 {
+//     width: 80px;
+//     margin: 0;
+//     background: #fafafa;
+//     z-index: 9;
+//     height: 24px;
+//     line-height: 24px;
+//     padding: 12px 0 12px 10px;
+//     border: 1px solid #ccc;
+//     position: absolute;
+//     top: 0;
+//     left: -94px;
+// }
+// .sashare-srap-new li {
+//     float: left;
+//     _display: inline;
+//     padding: 0 2px;
+//     margin-right: 8px;
+//     cursor: pointer;
+// }
+// .sashare-srap-new1 li {
+//     float: left;
+//     _display: inline;
+//     padding: 0 2px;
+//     margin-right: 8px;
+//     cursor: pointer;
+// }
+// .sashare-srap-new li a {
+//     float: left;
+//     cursor: pointer;
+//     text-decoration: none;
+// }
+// .sashare-srap-new1 li a {
+//     float: left;
+//     cursor: pointer;
+//     text-decoration: none;
+// }
+// .sc-acd.nssc_follow {
+//     height: 18px;
+//     padding-top: 32px;
+//     line-height: 14px;
+//     font-style: 12px;
+//     text-align: center;
+//     overflow: hidden;
+//     background-position: -93px -305px;
+// }
+// .ne_side_share_component .sc-acd {
+//     color: white;
+//     font-size: 0;
+// }/*
+// .ne_side_share_component .sc-acd:hover, .nssc_top:hover{
+//     background: #333;
+// }*/
+
+// .sc-acd.nssc_top {
+//     background-position: -93px -365px;
+// }
+// .sc-acd.nssc_share:hover {
+//     background-position: 0 -245px;
+//     overflow: visible;
+// }
+// .sc-acd.nssc_share1:hover {
+//      background-position: 0 -305px; 
+//     overflow: visible;
+// }
+// .sc-acd.nssc_top:hover {
+//      background-position: 0 -365px; 
+// }
+// .sc-acd.nssc_follow:hover {
+//     background-position: 0 -305px;
+// }
+// .sc-acd.nssc_share:hover .sashare-srap-new ul li{display:block}
+// .sc-acd.nssc_share1:hover .sashare-srap-new1 ul li{display:block}
+// .sashare-srap-new a:hover .special-share-renren {
+//     background-position: -150px -25px;
+// }
+// .sashare-srap-new1 a:hover .special-share-renren {
+//     background-position: -150px -25px;
+// }
+// .sashare-srap-new li a .special-share-icon {
+//     float: left;
+// }
+// .sashare-srap-new1 li a .special-share-icon {
+//     float: left;
+// }
+// .sashare-srap-new a .special-share-renren {
+//     background-position: -150px 0;
+// }
+// .sashare-srap-new1 a .special-share-renren {
+//     background-position: -150px 0;
+// }
+// .sashare-srap-new .special-share-icon {
+//     display: inline-block;
+//     width: 24px;
+//     height: 24px;
+//     overflow: hidden;
+//     background: url(http://112.90.87.229/public/images/63/b3/27/e87bdb6a4bcea484e057e5757069ee0d.png?1400125234#w) no-repeat;
+//     _background: url(http://112.90.87.229/public/images/63/b3/27/e87bdb6a4bcea484e057e5757069ee0d.png?1400125234#w) no-repeat;
+//     -webkit-transition: background 0.3s cubic-bezier(.17, .67, .88, 1.25), color 0.2s linear;
+//     -moz-transition: background 0.3s cubic-bezier(.17, .67, .88, 1.25), color 0.2s linear;
+//     -o-transition: background 0.3s cubic-bezier(.17, .67, .88, 1.25), color 0.2s linear;
+//     transition: background 0.3s cubic-bezier(.17, .67, .88, 1.25), color 0.2s linear;
+// }
+// .sashare-srap-new1 .special-share-icon {
+//     display: inline-block;
+//     width: 24px;
+//     height: 24px;
+//     overflow: hidden;
+//     background: url(http://112.90.87.229/public/images/63/b3/27/e87bdb6a4bcea484e057e5757069ee0d.png?1400125234#w) no-repeat;
+//     _background: url(http://112.90.87.229/public/images/63/b3/27/e87bdb6a4bcea484e057e5757069ee0d.png?1400125234#w) no-repeat;
+//     -webkit-transition: background 0.3s cubic-bezier(.17, .67, .88, 1.25), color 0.2s linear;
+//     -moz-transition: background 0.3s cubic-bezier(.17, .67, .88, 1.25), color 0.2s linear;
+//     -o-transition: background 0.3s cubic-bezier(.17, .67, .88, 1.25), color 0.2s linear;
+//     transition: background 0.3s cubic-bezier(.17, .67, .88, 1.25), color 0.2s linear;
+// }
+// .sashare-srap-new a:hover .special-share-sina {
+//     background-position: -50px -25px;
+// }
+// .sashare-srap-new a:hover .special-share-qzone {
+//     background-position: -100px -25px;
+// }
+// .sashare-srap-new a:hover .special-share-renren {
+//     background-position: -150px -25px;
+// }
+// .sashare-srap-new a:hover .special-share-youdao {
+//     background-position: -200px -25px;
+// }
+// .sashare-srap-new a:hover .special-share-163 {
+//     background-position: 0 -25px;
+// }
+// .sashare-srap-new a .special-share-sina {
+//     background-position: -50px 0;
+// }
+// .sashare-srap-new a .special-share-qzone {
+//     background-position: -100px 0;
+// }
+// .sashare-srap-new a .special-share-youdao {
+//     background-position: -200px 0;
+// }
+// /*1111111111111111111111111111111*/
+// .sashare-srap-new1 a:hover .special-share-zxkf {
+//     background-position: -250px -25px;
+// }
+// .sashare-srap-new1 a:hover .special-share-zxbx {
+//     background-position: -300px -25px;
+// }
+
+
+// .sashare-srap-new1 a .special-share-zxkf {
+//     background-position: -250px 0;
+// }
+// .sashare-srap-new1 a .special-share-zxbx {
+//     background-position: -300px 0;
+// }
+// /* 
+// .huad1{display: block !important;background:#CECECE url('http://www.konka.com/themes/kangjia/images/gouwuche2.png') no-repeat !important;background-position: 50% !important; background-size: 60% !important;}
+// .huad2{background:#CECECE url('http://www.konka.com/themes/kangjia/images/iconfont-weixin22.png') no-repeat !important;background-position: 50% !important;background-size: 60% !important;}
+// .huad2_img{ width: 134px !important;    left: -149px !important;height: 122px !important;top:-35px !important;background:url('http://www.konka.com/themes/kangjia/images/ewm.jpg') !important;    background-size: 100% 100% !important;    border-radius: 10px !important;}
+// .huad1:hover{display: block !important;background:#333333 url('http://www.konka.com/themes/kangjia/images/gouwuche2.png') no-repeat !important;background-position: 50% !important; background-size: 60% !important;}
+// .huad2:hover{background:#333333 url('http://www.konka.com/themes/kangjia/images/iconfont-weixin22.png') no-repeat !important;background-position: 50% !important;background-size: 60% !important;}
+// .huad2:hover{background:#333333 url('http://www.konka.com/themes/kangjia/images/iconfont-weixin22.png') no-repeat !important;background-position: 50% !important;background-size: 60% !important;}
+
+
+//  */
+
+
+
+
+
+// /* .huad1{display: block !important;background:#CECECE url('http://www.konka.com/themes/kangjia/images/gouwuche2.png') no-repeat !important;background-position: 50% !important; background-size: 60% !important;}
+//  *//* .huad2{background:#CECECE url('http://www.konka.com/themes/kangjia/images/iconfont-weixin22.png') no-repeat !important;background-position: 50% !important;background-size: 60% !important;}
+//  */
+
+// .huad1{display: block !important;background:#CECECE url('http://www.konka.com/themes/kangjia/images/22.png') no-repeat !important;}
+// .huad2{background:#CECECE url('http://www.konka.com/themes/kangjia/images/11.png') no-repeat !important;}
+// /* .huad2_img{ width: 134px !important;    left: -149px !important;
+// 	height: 122px !important;top:-35px !important;background:url('http://www.konka.com/themes/kangjia/images/ewm.jpg') !important;
+// 	    background-size: 100% 100% !important;    border-radius: 10px !important;} */
+
+// .huad2_img{ width: 130px !important;    left: -149px !important;
+// 	height: 122px !important;top:-35px !important;background:url('http://www.konka.com/themes/kangjia/images/erw.jpg') !important;
+// 	    background-size: 100% 100% !important;    border-radius: 10px !important;}
+// .huad1:hover{display: block !important;background:#333333 url('http://www.konka.com/themes/kangjia/images/22-2.png') no-repeat !important}
+// .huad2:hover{background:#333333 url('http://www.konka.com/themes/kangjia/images/iconfont-weixin22.png') no-repeat !important;background-position: 50% !important;background-size: 60% !important;}
+// .hua4{display: block !important;background:#CECECE url('./presale.png') no-repeat !important;}
+
+	// .weibo:hover{
+		// 	background:url(../images/iconfont-xinlangweibo2.png) no-repeat center center;
+		// }
+		// .weixin:hover{
+		// 	background:url(../images/iconfont-weixin2.png) no-repeat center center;
+		// }
+	
+		// .shequ:hover{
+		// 	background:url(../images/iconfont-shequ2.png) no-repeat center center;
+		
+		// }
+		// span.head_nav_title{
+// 	padding: 0 10px;
+// }
+// .line{
+// 	width: 0px;
+// 	height: 1px;
+// 	background: #ff5d59;
+// 	text-align: center;
+// 	display: none;
+// }
+
+// .topbar-cart{
+// 	width: 115px;
+// 	height: 40px;
+// 	line-height: 40px;
+// 	border: 1px solid #e5e5e5;
+// 	margin-top: 22px;
+// 	background: url(./gouwuche.png) no-repeat 10px center;
+// 	cursor: pointer;
+// 	text-indent: 2.5em!important;
+// 	position: relative;
+// }
+// .topbar-cart>a{color:#666;}
+// .cart_con{
+// 	width: 350px;
+// 	height: 200px;
+// 	background: #fff;
+// 	position: absolute;
+// 	right: 0px;
+// 	top: 40px;
+// 	display: none;
+// 	box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+// }
+// .white{
+// 	border: none;
+// 	box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+// }
+
+// .item-children{
+// 	width: 100%;
+// 	height: 100px;
+// 	background: #fff;
+// 	position: absolute;
+// 	top: 30px;
+// 	left: 0;
+// 	overflow: hidden;
+// 	z-index: -1;
+// 	display: block;
+// 	opacity: 0.5;
+// 	display: none;
+// }
+// .item-children .container{
+// 	height: 100px;
+
+// }
+// .item-children .container{
+// 	width: 1200px;
+// 	height: 100px;
+// }
+// .item-children .container ul{
+// 	width: 100%;
+// 	height: 100px;
+// 	overflow: hidden;
+// }
+// .item-children .container ul li{
+// 	width: 120px;
+// 	height: 100px;
+// 	float: left;
+// 	margin-right: 30px;
+// 	text-align: center;
+// }
+// .figure-thumb{
+// 	height: 60px;
+// 	line-height: 95px;
+// }
+// .figure-title{
+// 	height: 40px;
+// 	line-height: 40px;
+// 	font-size: 14px;
+// }
+//  .slideBox .prev,  .slideBox .next {
+// 	position:absolute;
+// 	left:20%;
+// 	top:50%;
+// 	margin-top:-25px;
+// 	display:block;
+// 	width:32px;
+// 	height:40px;
+// 	background:url(./slider-arrow.png) -110px 5px no-repeat;
+// 	filter:alpha(opacity=50);
+// 	opacity:0.5;
+// }
+// .slideBox .next {
+// 	left:auto;
+// 	background-position:8px 5px;
+// }
+// .slideBox .prev:hover,  .slideBox .next:hover {
+// 	filter:alpha(opacity=100);
+// 	opacity:1;
+// }
+// .slideBox .prevStop {
+// 	display:none;
+// }
+// .slideBox .nextStop {
+// 	display:none;
+// }
+
+
+
+
+
+
+
