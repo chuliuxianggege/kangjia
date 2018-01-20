@@ -1,0 +1,31 @@
+[{
+	"class":"",
+	"src":"../images/0fd33f02b948974d9e41d0028ebc21dd0be408ff.jpg",
+	"font1":"KKTV U40 人工智能语音",
+	"font2":"40吋4K 64位31核 HDR",
+	"font3":"￥1599"
+},{
+	"class":"",
+	"src":"../images/769c90216bc2ac3ab5a3dcdd03ec8d42f9eca645.jpg",
+	"font1":"KKTV U60 大屏6起来",
+	"font2":"60吋  4K LG硬屏 人工智能",
+	"font3":"￥3699"
+},{
+	"class":"",
+	"src":"../images/0f587b6e5b840f8668ac31367c684ecc4e5009ef.jpg",
+	"font1":"430升对开风冷冰箱",
+	"font2":"金色面板 LED触摸操控 电脑控温",
+	"font3":"￥2299"
+},{
+	"class":"",
+	"src":"../images/7c9383a48fc248a5fbb4b3a43766106628c71503.jpg",
+	"font1":"288升法式冰箱",
+	"font2":"四门三温区 7度软冷冻",
+	"font3":"￥1599"
+},{
+	"class":"",
+	"src":"../images/d85857ecbf5adf44e74d1f208975bb8203172611.jpg",
+	"font1":"8公斤滚筒洗衣机",
+	"font2":"90度高温煮洗 多种洗涤程序",
+	"font3":"￥1399"
+}]

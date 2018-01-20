@@ -26,23 +26,21 @@
 		// console.log(obj.src);		
 		init:function(obj,eleclass){
 			// console.log($("eleclass"));
-			var ele=$(eleclass);
+			this.ele=$(eleclass);
 			// console.log(ele[0]);
 			this.judge(obj);
 			//3 合并参数；得到新的参数newparameter；
 			var newparameter=$.extend(defaults,obj);
 			// console.log(defaults,newparameter);
 			//4 渲染页面=>4.1创建页面框架；4.2把参数中的src数组加载到入页面 4.3设置样式
-			this.bd=$("<div class='bd'></div>");
-			this.hd=$("<div class='hd'></div>");
-			this.frameset(newparameter,ele);
+			
+			this.frameset(newparameter,this.ele);
 			
 			// console.log(this.hd.find("li")[0]);
 			//5 鼠标划过事件，轮播图切换
 			this.index=0;
-			this.hd.find("li").on("mouseover",$.proxy(this.index1,this))
 			//6 左右按钮prev next点击发生事件
-			this.bd.find("button").on("click",$.proxy(this.index2,this))
+			this.ele.find("button").on("click",$.proxy(this.index2,this))
 		},
 		//构建判断函数
 		judge:function(obj){
@@ -54,38 +52,30 @@
 		//构建轮播图框架函数；
 		frameset:function(newparameter,ele){
 			var $ul1=$("<ul></ul>");
-			var $ul2=$("<ul></ul>");
 			var $btn1=("<button class='prev' value=''></button>");
 			var $btn2=("<button class='next' value=''></button>");
 			var srcnum=newparameter.src.length;
 			for(var i=0;i<srcnum;i++){
 				// console.log(newparameter.src[i]);
 				var $li=$("<li></li>");
-				var $a=$("<a></a>")
+				var $a=$("<a></a>");
+				var $a2=$("<a></a>");
 				var $img=$("<img/>");
-
+				var $p=$("<p></p>");
 				// console.log($img[i]);
 				$img.attr("src",newparameter.src[i]);
 				$a.append($img);
-				$li.append($a);
+
 				$ul1.append($li);
-				var $li2=$("<li></li>");
-				$ul2.append($li2);		
+				$p.append($a2);
+				$li.append($a);
+				$li.append($p);
 			}
-			this.bd.append($ul1);
-			this.hd.append($ul2);
-			ele.append(this.bd);
-			ele.append(this.hd);
-			this.bd.append($btn1);
-			this.bd.append($btn2);	
+			$(ele).append($ul1);
+			$(ele).append($btn1);
+			$(ele).append($btn2);	
 		},
 		//构建index函数
-		index1:function(event){
-			var target = $(event.target);
-
-			this.index= target.index();
-			 this.imagemove(this.index);
-		},
 		index2:function(event){
 			var target = $(event.target);
 			if(target.index()==1){
@@ -107,24 +97,17 @@
 		//构建imagemove函数
 		imagemove:function(index){
 			// console.log(1);
-			this.bd.find("li").eq(index)
+			this.ele.find("li").eq(index)
 			.fadeIn()
 			.siblings("li").fadeOut()
 
-			this.hd.find("li").eq(index)
-			.css({
-				background :"#fff"
-			})
-			.siblings().css({
-				background : "none"
-			})
 
 		}
 
 	
 	}
 	$.fn.extend({
-		supbanner:function(obj,eleclass){
+		supbanner2:function(obj,eleclass){
 			// console.log(1);
 			return new banner(obj,eleclass);}
 		}

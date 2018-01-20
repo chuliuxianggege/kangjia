@@ -1,0 +1,25 @@
+[{
+	"class":"bai",
+	"src":"../images/f8c5da6a4013aa0ec1f9cff1e9be97e4b32627e1.jpg",
+	"font1":"智能扫地机器人",
+	"font2":"一键预约 超薄自动回充",
+	"font3":"￥799"
+},{
+	"class":"bai",
+	"src":"../images/bd47ef0877e763b284baa762c57e04ab7373fe6c.jpg",
+	"font1":"鸳鸯电火锅",
+	"font2":"食品级材质 蝶形环流双管加热",
+	"font3":"￥169"
+},{
+	"class":"bai",
+	"src":"../images/e08df38a2fcee58914fb4affaa115390623829a7.jpg",
+	"font1":"S3手机",
+	"font2":"1300万高清摄像 后置双摄 微信8开",
+	"font3":"￥1499"
+},{
+	"class":"bai",
+	"src":"../images/1574a2e679d8a912fb49cbbfb58186f23fccf3d8.jpg",
+	"font1":"智能微投K1",
+	"font2":"口袋里的影院 配置强悍 轻松携带",
+	"font3":"￥1199"
+}]

@@ -1,0 +1,25 @@
+[{
+	"class":"bai",
+	"src":"../images/7faf25754411a3200c52fda154c9b844ac45129c.jpg",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"../images/eefc34092139224dd5392892d77733385aefdd0d.jpg",
+	"font1":"KKTV U55S 人工智能",
+	"font2":"55吋 64位31核  4K HDR 易学教育",
+	"font3":"￥2399"
+},{
+	"class":"bai",
+	"src":"../images/e3384a97c0596d70a250792dcd032113181dbb76.jpg",
+	"font1":"KKTV U65 客厅大屏",
+	"font2":"65吋  人工智能 双64位4K 高色域",
+	"font3":"￥3999"
+},{
+	"class":"bai",
+	"src":"../images/0f505923fc478f30db5d5dbce5112782fbc61a7f.jpg",
+	"font1":"KKTV U49J 4K升级版",
+	"font2":"49吋 双64位18核 4K HDR 人工智能",
+	"font3":"￥1999"
+}]
