@@ -9,12 +9,13 @@ gulp.task("font",()=>{
 
 gulp.task("html",()=>{
 	return gulp
-				.src(["*.html"])
+				.src(["*.html","html/*.html"])
 			 	.pipe(gulp.dest("dist"))
 			 	.pipe(connect.reload());//自动刷新;
 })
 gulp.task("watch",()=>{
-	gulp.watch(["scss/*.scss","*.html","es6/*.js","images/**/*","libs/**/*"],["sass","html","es6","img","libs"]);
+	gulp.watch(["scss/*.scss","es6/*.js","images/**/*","libs/**/*"],["sass","es6","img","libs"]);
+	gulp.watch(["*.html","html/*.html"],["html"]);
 })
 gulp.task('server',function(){
     connect.server({

@@ -18,7 +18,7 @@
 					for (var i = 0; i < res.length; i++) {
 						//1创造媒介 li，a，img，span.fon1，span.fon2，span.fon3；
 						var $li = $("<li></li>");
-						var $a = $("<a href='#javascrip'></a>");
+						var $a = $("<a href='goodinf.html'></a>");
 						var $img = $("<img src=''/>");
 						var $fon1 = $("<h4></h4>");
 						var $fon2 = $("<p></p>");

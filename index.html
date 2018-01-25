@@ -6,13 +6,32 @@
 	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+	<!-- 磁悬浮fix定位 -->
+	<div class="_365webcall_list">
+		<a href="#">
+			<img src="images/news_1.png">
+			<p>购买咨询</p>
+		</a>
+		<a id="Link" href="#">
+			<img src="images/Link_1.png">
+			<p>售后服务</p>
+		</a>
+		<a href="#" class="totop">
+			<img src="images/Top_1.png">
+			<p>返回顶部</p>
+		</a>
+	</div>
 	<!-- sitetopbar开始 -->
 	<div class="sitetopbar">
 		<div class="container">
 			<!-- 左float	 -->
 			<ul class="topbarleft fl">
 				<li class="weibo fl"></li>
-				<li class="weixin fl"></li>
+				<li class="weixin fl">
+					<div class="ewm">
+						<img src="../images/ewm.jpg">
+					</div>
+				</li>
 				<li class="shequ fl"></li>
 			</ul>
 			<!-- 右float -->
@@ -40,7 +59,38 @@
 						<a href="#">联系我们</a>
 					</li>
 				</ul>
+			<!-- 用户注册 -->
+			<div class="hover_change">
+				<div class="container_border_up_shadow">
+					<div class="triangle_border_up_shadow">
+						<span></span>
+					</div>
+					<div class="triangle_border_up">
+						<span></span>
+					</div>
+				</div>
+				<div style="clear:both"></div>
+				<div class="hover_index_before">
+					<ul>
+
+						<a href="sign.html">
+							<li >
+								<img src="images/login.png">
+								<span ">用户登录</span>
+							</li>
+						</a>
+						<a href="register.html">
+							<li >
+								<img src="images/regist.png">
+								<span ">用户注册</span>
+							</li>
+						</a>
+					</ul>
+				</div>
+				</div>
 			</div>
+			
+
 		</div>
 	</div>
 	<!-- topbar结束 -->
@@ -48,12 +98,12 @@
 	<div class="siteheader">
 		<div class="siteheadercontainer">
 			<div class="container1">
-				<a href="#">
+				<a href="index.html">
       			  	<div class="header-logo fl"></div>
         		</a>
 				<div class="header-nav fl">
 					<ul class="MenuList MenuList_205 clearfix">
-    					<li><a href="#">电视</a></li>
+    					<li><a href="tv.html">电视</a></li>
         				<li><a href="#" >手机</a></li>
         				<li><a href="#" >冰洗</a></li>
         				<li><a href="#" >生活电器</a></li>
@@ -69,8 +119,15 @@
   						<input class="search-btn" type="submit" value="">
  			 		</form>
 				</div>
-				<!-- 购物车未完成 -->
-				<div class="gouwuche">购物车</div>
+				<div class="topbar-cart rt minicart-active" id="minicart_207">
+   					<a href="cart.html">购物车
+   					<span> 
+   						<b class="op-cart-number">0</b> 件</span></a>
+  					<div class="cart_con" >
+  						<div class="no-information">	您的购物车是空的
+  						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -80,15 +137,76 @@
 		<div class="container">
 			<!-- 楼梯 -->
 			<div class="site-category">
+				<div class="opcacity"></div>
+				<ul class="fl">
+					<li>电视
+
+							<ul class="lv2cd">
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+							</ul>	
+
+					</li>
+					<li>冰箱
+					<ul class="lv2cd">
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+								
+								<li>二级菜单</li>
+							</ul>	</li>
+					<li>洗衣机
+					<ul class="lv2cd">
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+								
+							</ul>	</li>
+					<li>手机
+					<ul class="lv2cd">
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+							</ul>	</li>
+					<li>生活电器
+					<ul class="lv2cd">
+								<li>二级菜单</li>
+							
+								<li>二级菜单</li>
+							</ul></li>
+					<li>智能硬件
+					<ul class="lv2cd">
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+							</ul></li>
+					<li>配件
+					<ul class="lv2cd">
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+							
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+								<li>二级菜单</li>
+							</ul></li>
+				</ul>
 			</div>
 			<!-- banner轮播图 完成 to banner.js-->
 			<div class="slidebox">
 				
     						
- 				</div>
- 				<a class="prev" href="#" style="left: 321.5px;"></a>
-         		<a class="next" href="#" style="left: 1191.5px;"></a>
-			</div>
+ 			</div>
+ 			<a class="prev" href="#" style="left: 321.5px;"></a>
+         	<a class="next" href="#" style="left: 1191.5px;"></a>
 		</div>
 	</div>
 	<div class="coin-certificate">
@@ -462,7 +580,11 @@
       </div>
   	</div>
   	<div class="sfbottom">
-  		
+  		<div class="shangbiao">
+  				<a href="#"><img class="img1" src="images/cert.png" alt=""></a>
+  				<a href="#"><img class="img2" src="images/gw_124x47.png" alt=""></a>
+  				<a href="#"><img class="img3" src="images/newGovIcon.gif" alt=""></a>
+  		</div>
   	</div>	
 
 </body>

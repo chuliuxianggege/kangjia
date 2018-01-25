@@ -1,0 +1,67 @@
+@charset "utf-8";
+@import "commen";
+.tv{
+	margin:0 auto;
+	width: 1200px;
+	position: relative;
+	
+	.tvbd,{
+		padding-bottom: 15px;
+
+		ul li{
+			text-align: center;
+			width: 290px;
+			height: 340px;
+			float: left;
+			margin-right: 13px;		
+		}
+		ul li:last-child{
+			margin-right: 0px;	
+		}
+	}
+	.rexiaobottom{
+		padding-bottom: 50px;
+	}
+}
+.bai{
+	background: #ffffff;
+}
+.ajaxul{
+	left: 0;
+	a{display: block;}
+	h4{
+		display :block;
+		font-style: none;
+		font-weight: normal;
+		height:22px;
+		color:#666666;
+		font-size:16px;
+	}
+	p{
+		color:#999999;
+		line-height: 25px;
+		font-size:14px;
+	}
+	span{
+		color:#ff0000;
+		font-size:16px;
+	}
+}
+.tvbottom{
+	ul {
+		
+		li{
+			text-align: center;
+			background: #fff;
+			height: 30px;
+			width: 150px;
+			line-height: 30px;
+			color: red;
+			float: left;
+			border: 1px solid #eee;
+		}
+		.tvli1{
+			background: #ddd;
+		}
+	}
+}

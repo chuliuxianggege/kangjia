@@ -1,0 +1,121 @@
+[{
+	"class":"bai",
+	"src":"http://www.konka.com/public/images/9d/85/11/a351df80051d2bd4cfceebcbd6377dd1e81a71e7.jpg?1494553578#hg",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"http://www.konka.com/public/images/b0/86/47/8efb46525214bca10f60849e267617ce729461ad.jpg?1494396715#h",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"../images/eefc34092139224dd5392892d77733385aefdd0d.jpg",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"../images/eefc34092139224dd5392892d77733385aefdd0d.jpg",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"http://www.konka.com/public/images/87/f5/0f/a4b9e43999241dc57d48a4e0e00b37e370a288ec.jpg?1490172864#h",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"http://www.konka.com/public/images/35/e8/16/15c1109f0de37ba2e61bcceadb243ae443bf2e04.jpg?1490324833#h",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"../images/eefc34092139224dd5392892d77733385aefdd0d.jpg",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"http://www.konka.com/public/images/54/9b/8b/152016c6040e57cd95d4de0d9e0732758fb3ec33.jpg?1489714513#h",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"../images/eefc34092139224dd5392892d77733385aefdd0d.jpg",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"http://www.konka.com/public/images/10/f6/58/83760d0850ea8a96e167328edd5eb7017d59d524.jpg?1487846249#h",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"http://www.konka.com/public/images/10/f6/58/83760d0850ea8a96e167328edd5eb7017d59d524.jpg?1487846249#h",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"http://www.konka.com/public/images/e2/be/62/7b2d4f19f4508c1ef929671875c3872a48aaeebf.jpg?1486688426#h",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"http://www.konka.com/public/images/58/0f/a8/925898deba64c8dc4f0d948eb31e642ee9f8fb81.jpg?1484644993#h",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"http://www.konka.com/public/images/2a/6e/58/a18ab80e1611ea9409152df0629b3438dfd1cf48.jpg?1480650564#h",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"http://www.konka.com/public/images/78/1f/82/f24c18feef8c644802ba1608d2d4fc656b57ce2c.jpg?1480903171#h",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"../images/eefc34092139224dd5392892d77733385aefdd0d.jpg",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"http://www.konka.com/public/images/28/30/3e/d4cfa1b106136da75304047bb6fdca0cc4cefe37.jpg?1496296258#h",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"../images/eefc34092139224dd5392892d77733385aefdd0d.jpg",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"http://www.konka.com/public/images/28/30/3e/d4cfa1b106136da75304047bb6fdca0cc4cefe37.jpg?1496296258#h",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+},{
+	"class":"bai",
+	"src":"http://www.konka.com/public/images/eb/2c/6a/2ce8d03bc0fc4d745025553e3dcf9d7bedee03b7.jpg?1480676485#h",
+	"font1":"KKTV K43 网红爆款",
+	"font2":"43吋 硬屏 64位10核 HDR",
+	"font3":"￥1699"
+}]

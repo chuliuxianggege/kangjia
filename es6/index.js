@@ -4,7 +4,98 @@ require(["scripts/config.js"],function(){
 		// $("#ad-top").find("a").on("click",function(){
 		// 	$("#ad-top").remove();
 		// })
+		//购物车划过事件
+		$(".topbar-cart").on("mouseover",function(){
+			$(".cart_con").css({
+				display :"block"
+			})
+		})
+		$(".topbar-cart").on("mouseleave",function(){
+			$(".cart_con").css({
+				display :"none"
+			})
+		})
 
+		//微信、微博、社区划过事件
+		$(".weibo").on({
+			"mouseover":function(){
+				$(this).css({
+					background :"url(../images/iconfont-xinlangweibo2.png) no-repeat center center"
+				})
+			},
+			"mouseleave":function(){
+				$(this).css({
+					background :"url(../images/iconfont-xinlangweibo.png) no-repeat center center"
+				})
+			}
+		})
+		$(".weixin").on({
+			"mouseover":function(){
+				$(this).css({
+					background :"url(../images/iconfont-weixin2.png) no-repeat center center" 
+				})
+				$(".ewm").css({
+					display : "block"
+				})
+			},
+			"mouseleave":function(){
+				$(this).css({
+					background :"url(../images/iconfont-weixin.png) no-repeat center center" 
+				})
+				$(".ewm").css({
+					display : "none"
+				})
+			}
+		})
+		$(".shequ").on({
+			"mouseover":function(){
+				$(this).css({
+					background :"url(../images/iconfont-shequ2.png) no-repeat center center"
+				})
+			},
+			"mouseleave":function(){
+				$(this).css({
+					background :"url(../images/iconfont-shequ.png) no-repeat center center"
+				})
+			}
+		})
+		$(".fl_change").on({
+			"mouseover":function(){
+				$(".hover_change").css({
+					display :"block"
+				})
+			}		
+		})
+		$(".hover_change").on("mouseleave",function(){
+			$(".hover_change").css({
+				display :"none"
+			})
+		})
+		$(".hover_index_before").find("span").on({
+			"mouseover":function(){
+				$(this).css({
+					color :"#ff0000"
+				})
+			},
+			"mouseleave":function(){
+				$(this).css({
+					color :"rgb(152, 152, 152)"
+				})
+			}
+		})
+		// //楼梯菜单划过
+		// $(".opcacity").find("li").on("mouseover",function(){
+		// 	$(this).find("ul").css({
+		// 		display:"block"
+		// 	})
+		// })
+		//磁悬浮fixed窗回到顶部
+		$(".totop").on("click",function(){
+			$("._365webcall_list").css({
+				top:"100px"
+			})
+		})
+		//style="color: ;
 		// twinav.init();
 		//banner轮播图加载
 		$.fn.supbanner({
@@ -31,6 +122,10 @@ require(["scripts/config.js"],function(){
 		$.fn.ajaxnewpro(".rexiaoul1","scripts/rexiaoproduct1.txt");
 		$.fn.ajaxnewpro(".rexiaoul2","scripts/rexiaoproduct2.txt");
 		// 
+
+		//goodinf商品具体属性放大镜；
+		// goodsMagnify.init($(".spec-scroll").find("li"));
+
 		//1 
 		//2 
 		//3 

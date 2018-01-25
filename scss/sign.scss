@@ -1,0 +1,78 @@
+@charset "utf-8";
+@import "commen";
+.signbox{
+	width: 1200px;
+	height: 341px;
+	margin:40px auto;
+	background: url(../images/72ae195e0cd0717b1ae60d7d6dee2da08392b508.jpg) no-repeat;
+}
+.signin{
+	position: relative;
+	div{
+		input{
+			margin-top: 2px;
+		}
+	}
+	background: #fff;
+	float: right;
+	width: 430px;
+	height: 329px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	.titelbox{
+
+		width: 410px;
+		height: 44px;
+		padding-left: 20px;
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 10px;
+		h2{
+			color: #ff5d59;
+			font: 400 24px/44px 'Microsoft Yahei';
+		}
+	}
+	.boxbodyt{
+
+		padding-left: 20px;
+		.input1{
+			border:1px solid #ccc;
+			width: 288px;
+	   		height: 26px;
+    		line-height: 26px;
+    		padding: 1px 4px;
+    		margin-bottom:30px;
+		}
+		a{
+			float: left;
+			color: #ff5d59;
+			height: 35px;
+			line-height: 35px;
+			margin-right: 20px;
+			margin-top: 30px;
+			span{
+				display: block;
+				background:#ff5d59;
+				color: #fff;
+				width: 42px;
+				height: 35px;
+				padding: 0 15px;
+				line-height: 35px;
+			}
+		}	
+		.bottombox{
+			width: 75%;
+			a{
+				margin: 0;
+			}
+			height: 26px;
+			position: absolute;
+			bottom: 0px;
+			overflow: hidden;
+    		padding: 10px 20px;
+   			background-color: #efefef;
+   			span{
+				float: right;
+   			}
+		}
+	}
+}

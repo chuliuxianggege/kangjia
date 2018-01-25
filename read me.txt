@@ -1,0 +1,20 @@
+ 1主页=>index.html =>(导航 电视)=>商品列表流页=>tv.html=> （任意商品）=>商品属性页=>goodinf.html
+		=>(小人头鼠标移入 注册)=>注册页面=>register.html
+				  登录）=>登录页面=>sign.html
+		=>(任意商品 )=>商品属性页=>goodinf.html
+
+
+2 商品列表流页=>tv.html    点击导航栏电视进入
+
+3 商品属性页=>goodinf.html  点击任意商品进入
+
+4 注册页面=>register.html   鼠标移入header 用户图标
+
+5 登录页面=>sign.html     鼠标移入header 用户图标
+
+
+	# 1购物车 与 登录页 cookie 没做；
+	  2商品列表流页面与属性页面样式未完成。
+
+
+
